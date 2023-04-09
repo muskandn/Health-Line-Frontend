@@ -1,0 +1,156 @@
+.doctor__container{
+    display: grid;
+    grid-template-columns: 55% 40%;
+    gap: 10%;
+    background-color: white;
+    padding-left: 17rem;
+    padding-right: 17rem;
+    padding-top: 90px;
+    padding-bottom: 20px;
+}
+
+.doctor__me{
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 2rem;
+    background: linear-gradient(
+        45deg,
+        transparent,
+        var(--color-primary),
+        transparent
+    );
+    display: grid;
+    place-items: center;
+}
+.doctor__me-image{
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(10deg) ;
+    transition: var(transition);
+}
+.doctor__me-image:hover{
+    transform: rotate(0) ;
+}
+
+.doctor__cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.doctor__card{
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+.doctor__card:hover{
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: pointer;
+    
+}
+
+.doctor__icon{
+    color: var(--color-primary);
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.doctor__card h5{
+    font-size: 0.95rem;
+}
+
+.doctor__card small{
+    font-size: 0.7rem;
+    color: var(--color-light);
+
+}
+
+.doctor__content{
+    padding-top: 50px;
+}
+
+.doctor__content h1{
+    font-size: 2rem;
+    line-height: 2.5rem;
+    padding-bottom: 10px;
+}
+
+.doctor__content h2 {
+    font-size: .8rem;
+    color:rgb(89, 88, 88);
+    
+}
+/* 
+.doctor__content h2 {
+    margin-top: 10px;
+
+} */
+.doctor__content span {
+    font-size: 2.8rem;
+    color: rgb(31, 31, 31);
+    font-weight: bold;
+    
+}
+.doctor__content p{
+    /* padding-top: 10px; */
+    margin: 2rem 0 0rem;
+    color: var(--color-light);
+    font-size: .8rem;
+    color:rgb(89, 88, 88)
+}
+.Point{
+    padding-bottom: 20px;
+}
+.points{
+    display: flex;
+    gap: 10px
+}
+
+.button{
+    border-radius: 0;
+    padding:5px 10px;
+    background-color: rgb(80, 199, 246);
+}
+/*-----------------------medium devices-------------------*/
+@media (max-width:768px){
+    .doctor__container{
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .doctor__me{
+        width: 50%;
+        margin: 2rem auto 4rem;
+    }
+
+    .doctor__content p{
+        margin: 1rem 0 1.5rem;
+    }
+}
+
+/*-------------------small devices--------------*/
+@media (max-width:600px){
+    .doctor__me{
+        width: 65%;
+        margin: 0 auto 3rem;
+
+    }
+
+    .doctor__cards{
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+    .doctor__content{
+        text-align: center;
+    }
+    .doctor__content p{
+        margin: 1.5rem 0;
+    }
+}

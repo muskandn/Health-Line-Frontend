@@ -1,0 +1,18 @@
+.Home{
+    
+    background-image: url("bg2.png");
+    /* background-repeat: no-repeat; */
+        /* background-attachment: fixed; */
+        background-size: cover;
+        height: 30rem;
+        background-position: bottom left;
+
+}
+
+.homeMain{
+    position: absolute;
+    right: -190px;
+    top:30px;
+    width: 50rem;
+    z-index: 0;
+}

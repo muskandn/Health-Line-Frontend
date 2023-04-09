@@ -1,0 +1,49 @@
+.footer {
+    background: #030c46;
+    padding-left: 17rem;
+    padding-right: 0rem;
+}
+
+.footer .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(7rem, 1fr));
+}
+
+.footer .box-container .box h3 {
+    font-size: 1rem;
+    padding: 1rem 0;
+    color: #fff;
+}
+
+.footer .box-container .box a {
+    display: block;
+    font-size: .8rem;
+    padding: .3rem 0;
+    color: #eee;
+}
+
+.footer .box-container .box a i {
+    padding-right: .5rem;
+    color: var(--main-color);
+}
+
+.footer .box-container .box a:hover i {
+    padding-right: 1.5rem;
+    color: #fff;
+}
+
+.footer .credit {
+    /* text-align: center; */
+    border-top: .1rem solid #222;
+    color: rgb(233,243,246);
+    padding-top: 1rem;
+    margin-top: 1rem;
+    font-size: .9rem;
+    justify-content: space-around;
+    padding-left: 25rem;
+    padding-bottom: 1rem;
+}
+
+.footer .credit span {
+    color: var(--main-color);
+}

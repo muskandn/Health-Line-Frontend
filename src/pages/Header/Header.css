@@ -1,0 +1,30 @@
+.homePageLinks {
+    padding-right: 2rem;
+}
+.header{
+    background-color:red; 
+}
+
+.logo{
+    display: flex;
+    line-height: 3.6rem;
+}
+
+.logo h1{
+    color:#030c46;
+    font-size: 1.7rem;
+    font-weight: bold
+
+}
+.header h2{
+    color: #030c46;
+}
+
+.header h2:hover {
+    color: #030c46;
+    display: block;
+    padding: 0 5px;
+    background-color: rgb(80, 199, 246);
+    /* text-decoration: underline; */
+    /* letter-spacing: 2px; */
+}
