@@ -26,7 +26,7 @@ const Header = () => {
         height="50px"
         width="60px"
       />
-      <h1>MidCare</h1>
+      <h1>Health Line</h1>
         
         </div>  
       

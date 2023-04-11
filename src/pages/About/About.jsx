@@ -22,18 +22,18 @@ export default function About(){
                     <div className="about__cards">
                         <div className="about__card">
                         <BsPersonFillCheck className='about__icon' />
-                        <h5>Experience</h5>
-                        <small>3+ Years Works</small>
+                        <h5>A+ Doctors</h5>
+                        <small>Lorem ipsum done</small>
                     </div>
                     <div className="about__card">
                         <AiFillMedicineBox className='about__icon' />
-                        <h5>Experience</h5>
-                        <small>3+ Years Works</small>
+                        <h5>Consultation</h5>
+                        <small>Lorem ipsum done</small>
                     </div>
                     <div className="about__card">
                         <FaComments className='about__icon' />
-                        <h5>Experience</h5>
-                        <small>3+ Years Works</small>
+                        <h5>Chatting</h5>
+                        <small>Lorem ipsum done</small>
                     </div>
                     </div>
                     

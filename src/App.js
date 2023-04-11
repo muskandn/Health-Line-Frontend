@@ -5,7 +5,7 @@ import Chatpage from './pages/Chatpage';
 import Frontpage from './pages/Front/Front'
 import HomepageD from './pages/Doctor-Sign/Doctorsign'
 import ChatpageD from './pages/ChatpageD';
-
+import About2nd from './pages/About2nd/About2nd';
 
 function App() {
   return (
@@ -15,6 +15,7 @@ function App() {
       <Route exact path="/signd" component={HomepageD}/>
       <Route exact path="/chats" component={Chatpage}/>
       <Route exact path="/chatsD" component={ChatpageD}/>
+      <Route exact path="/about" component={About2nd}/>
     </div>
   )
 }
