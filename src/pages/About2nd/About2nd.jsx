@@ -5,6 +5,13 @@ import Footer from "../Footer/Footer";
 import { Swiper, SwiperSlide } from "swiper/react";
 // import required modules
 import { Autoplay, Navigation, Pagination } from "swiper";
+import PIC1 from "../../pd1.jpg"
+import PIC2 from "../../pd5.jpg"
+import PIC3 from "../../pd4.jpg"
+
+import LOGO1 from "../../connect.png"
+import LOGO2 from "../../trust.png"
+import LOGO3 from "../../transparency.png"
 
 // Import Swiper styles
 import "swiper/css";
@@ -64,7 +71,7 @@ const About = () => {
         </div>
         <div className="about__sections">
           <div>
-            <img src="/images/connect.svg" alt="" />
+            <img src={LOGO1} alt="" />
             <h1>Connect</h1>
             <h4>
               We understand healthcare goes beyond signs, symptoms, diagnosis,
@@ -74,7 +81,7 @@ const About = () => {
             </h4>
           </div>
           <div>
-            <img src="/images/trust.svg" alt="" />
+            <img src={LOGO2} alt="" />
             <h1>Trust</h1>
             <h4>
               We work on trust. We are aware of the responsibility placed on us
@@ -83,7 +90,7 @@ const About = () => {
             </h4>
           </div>
           <div>
-            <img src="/images/transparency.svg" alt="" />
+            <img src={LOGO3} alt="" />
             <h1>Transparency</h1>
             <h4>
               We believe in full disclosure. We believe in communicating openly
@@ -111,142 +118,12 @@ const About = () => {
           </p>
         </div>
         <div className="images">
-          <img src="/images/pd1.jpg" alt="" className="pd__images" />
-          <img src="/images/pd5.jpg" alt="" className="pd__images" />
-          <img src="/images/pd4.jpg" alt="" className="pd__images" />
+          <img src={PIC1} alt="" className="pd__images" />
+          <img src={PIC2} alt="" className="pd__images" />
+          <img src={PIC3} alt="" className="pd__images" />
         </div>
-        <div className="main__div">
-          <div className="swiper__main">
-            <Swiper
-              // spaceBetween={10}
-              slidesPerView={1}
-              loop={true}
-              autoplay={{
-                delay: 2000,
-                disableOnInteraction: false,
-              }}
-              pagination={{
-                clickable: true,
-              }}
-              navigation={true}
-              modules={[Autoplay, Pagination, Navigation]}
-              className="mySwiper"
-            >
-              <SwiperSlide>
-                <div className="swiper__content1">
-                  <h1>What our users have to say</h1>
-                  <span>
-                    The online health chat website was a great resource for me
-                    when I had questions about my medical condition. The chat
-                    feature was easy to use and I was able to get answers from
-                    healthcare professionals quickly. It was a convenient way to
-                    get the help I needed without having to leave my home.
-                  </span>
-                  <div className="swiper__footer1">
-                    <img src="/images/user2.png" className="avatar" />
-                    <h4>Amit Kumar</h4>
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="swiper__content1">
-                  <h1>What our users have to say</h1>
-                  <span>
-                    I appreciated that the online health chat website had a 24/7
-                    support team available to answer my questions. I had some
-                    concerns about my medication and was able to chat with a
-                    pharmacist who provided me with helpful advice. It was a
-                    great service.
-                  </span>
-                  <div className="swiper__footer1">
-                    <img src="/images/user2.png" className="avatar" />
-                    <h4>Kritika Mittal</h4>
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="swiper__content1">
-                  <h1>What our users have to say</h1>
-                  <span>
-                    The online health chat website was very helpful for
-                    connecting me with other patients who were going through the
-                    same thing as me. It was a supportive community and we were
-                    able to share our experiences and offer each other advice.
-                    It was a great way to feel less alone.
-                  </span>
-                  <div className="swiper__footer1">
-                    <img src="/images/user2.png" className="avatar" />
-                    <h4>Uma Garg</h4>
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="swiper__content1">
-                  <h1>What our users have to say</h1>
-                  <span>
-                    I liked that the online health chat website had a mental
-                    health section where I could chat with a therapist. It was a
-                    convenient and affordable way to get the support I needed.
-                    The therapist was understanding and gave me helpful advice.
-                  </span>
-                  <div className="swiper__footer1">
-                    <img src="/images/user2.png" className="avatar" />
-                    <h4>Yuraj Singh</h4>
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="swiper__content1">
-                  <h1>What our users have to say</h1>
-                  <span>
-                    The online health chat website was a lifesaver for me when I
-                    had a medical emergency. I was able to chat with a
-                    healthcare professional who helped me determine if I needed
-                    to seek immediate medical attention. It was a great way to
-                    get advice quickly and without having to leave my home.
-                  </span>
-                  <div className="swiper__footer1">
-                    <img src="/images/user2.png" className="avatar" />
-                    <h4>Aarti Bathoo</h4>
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="swiper__content1">
-                  <h1>What our users have to say</h1>
-                  <span>
-                    Jason: "The online health chat website was easy to use and
-                    had a lot of resources available. I was able to get answers
-                    to my questions quickly and efficiently. It was a great way
-                    to get medical advice without having to wait on hold for a
-                    long time."
-                  </span>
-                  <div className="swiper__footer1">
-                    <img src="/images/user2.png" className="avatar" />
-                    <h4>Sara </h4>
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="swiper__content1">
-                  <h1>What our users have to say</h1>
-                  <span>
-                    I was hesitant to use an online health chat website at
-                    first, but I was pleasantly surprised with how helpful it
-                    was. I was able to chat with a doctor about my medical
-                    concerns and they were able to provide me with a diagnosis
-                    and treatment plan. It was a convenient way to get medical
-                    help without having to leave my home.
-                  </span>
-                  <div className="swiper__footer1">
-                    <img src="/images/user2.png" className="avatar" />
-                    <h4>Avneet Kaur</h4>
-                  </div>
-                </div>
-              </SwiperSlide>
-            </Swiper>
-          </div>
-        </div>
+        
+        {/* </div> */}
       </div>
       
     </div><Footer />

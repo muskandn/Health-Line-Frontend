@@ -1,5 +1,5 @@
 .about2nd{
-    padding: 0 10rem;
+    padding: 0 0;
 }
 .header__about{
     top:0;
@@ -10,13 +10,15 @@
 }
 
 .mission__about {
-    padding-top: 10rem;
+    padding: 10rem 0 8rem 0;
+    background-color: white;
 }
 
 .mission__h1 {
     font-size: 3rem;
     font-weight: 600;
-    text-shadow: 2px 2px grey;
+    color: #030c46;
+    /* text-shadow: 2px 2px grey; */
     display: flex;
     justify-content: center;
 }
@@ -38,6 +40,7 @@
     font-weight: 600;
     display: flex;
     justify-content: center;
+    color: #030c46;
 }
 
 .des__about p {
@@ -63,6 +66,8 @@
 
 .testimonial {
     margin: 5rem 0 0 0;
+    background-color: white;
+    padding: 6rem 0;
 }
 
 .testimonial__heading h1 {
@@ -70,6 +75,7 @@
     font-weight: 600;
     display: flex;
     justify-content: center;
+    color: #030c46;
 }
 
 .testimonial__heading p {
@@ -89,17 +95,18 @@
     padding: 1rem;
     filter: brightness(120%);
     filter: contrast(120%);
-    filter: drop-shadow(10px 10px 10px grey);
+    filter: drop-shadow(10px 10px 10px #393e65);
 }
 
 /* swiper */
 .main__div {
-    background-color: rgb(233, 243, 246);
-    padding-bottom: 5rem;
+    background-color: white;
+    padding-bottom: 6rem;
+    padding-top: 1rem;
 }
 
 .swiper__main {
-    margin: 10rem 25rem 0 25rem;
+    margin: 5rem 25rem 0 25rem;
 }
 
 .text__div {

@@ -224,3 +224,57 @@ home-wrapper {
         grid-column: 1/1;
     }
 }
+
+/* swiper */
+.main__div {
+    background-color: red;
+    padding-bottom: 5rem;
+}
+
+.swiper__main {
+    margin: 10rem 25rem 0 25rem;
+}
+
+.text__div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper__main h1 {
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+.avatar {
+    height: 1.5rem;
+    width: 1.5rem;
+    margin: 0.5rem;
+}
+
+.swiper__content1 {
+    margin: 2rem 4rem 2rem 4rem;
+}
+
+.swiper__footer1 {
+    display: flex;
+    justify-content: left;
+}
+
+.swiper__footer1 h4 {
+    font-weight: 550;
+    margin-top: 0.5rem;
+}
+
+/* .swiper-button-prev {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%234c71ae'%2F%3E%3C%2Fsvg%3E") !important;
+}
+.swiper-button-next {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%234c71ae'%2F%3E%3C%2Fsvg%3E") !important;
+} */
+
+:root {
+    --swiper-theme-color: #000;
+}
