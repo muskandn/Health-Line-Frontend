@@ -51,7 +51,7 @@ export default function Service() {
               <h2>100% Private and confidential</h2>
             </div>
           </div>
-          <Link to={"/doctors"} className="button">
+          <Link to={"/doctor"} className="button">
             Find me the doctor
           </Link>
 

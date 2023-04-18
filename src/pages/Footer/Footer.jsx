@@ -6,7 +6,7 @@ const Footer = () => {
       <section className="footer">
         <div className="box-container">
           <div className="box">
-            <h3>branches</h3>
+            <h3>Branches</h3>
             <a href="#">
               {" "}
               <i className="fas fa-map-marker-alt"></i> mumbai{" "}
@@ -30,14 +30,10 @@ const Footer = () => {
           </div>
 
           <div className="box">
-            <h3>quick links</h3>
+            <h3>Quick Links</h3>
             <a href="#">
               {" "}
               <i className="fas fa-arrow-right"></i> home{" "}
-            </a>
-            <a href="#">
-              {" "}
-              <i className="fas fa-arrow-right"></i> service{" "}
             </a>
             <a href="#">
               {" "}
@@ -45,24 +41,21 @@ const Footer = () => {
             </a>
             <a href="#">
               {" "}
-              <i className="fas fa-arrow-right"></i> gallery{" "}
+              <i className="fas fa-arrow-right"></i> doctors{" "}
             </a>
             <a href="#">
               {" "}
-              <i className="fas fa-arrow-right"></i> price{" "}
+              <i className="fas fa-arrow-right"></i> patient registration{" "}
             </a>
             <a href="#">
               {" "}
-              <i className="fas fa-arrow-right"></i> reivew{" "}
+              <i className="fas fa-arrow-right"></i> doctor registration{" "}
             </a>
-            <a href="#">
-              {" "}
-              <i className="fas fa-arrow-right"></i> contact{" "}
-            </a>
+            
           </div>
 
           <div className="box">
-            <h3>contact info</h3>
+            <h3>Contact Info</h3>
             <a href="#">
               {" "}
               <i className="fas fa-phone"></i> +123-456-7890{" "}
@@ -86,7 +79,7 @@ const Footer = () => {
           </div>
 
           <div className="box">
-            <h3>follow us</h3>
+            <h3>Follow Us</h3>
             <a href="#">
               {" "}
               <i className="fab fa-facebook-f"></i> facebook{" "}
@@ -108,7 +101,7 @@ const Footer = () => {
 
         <div className="credit">
           {" "}
-          Copyright @2023, Practo. All rights reserved.{" "}
+          Copyright @2023, Health Line. All rights reserved.{" "}
         </div>
       </section>
 

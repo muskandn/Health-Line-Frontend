@@ -1,38 +1,31 @@
-
 import React from "react";
-// import color from "../color.json";
-import "./DoctorPage.css"
+import { ReactDOM } from "react-dom";
+import "./DoctorPage.css";
 
 function DoctorModel(props) {
   return (
-    <div className="container grid ">
-      <div
-        className="Total-content"
-        style={{
-          display: "grid",
-          gridTemplateColumns: "repeat(2, 1fr)",
-          gridGap: 20,
-        }}
-      >
+
+      <div className="Total-content">
+
         <div className="Image-file">
           <figure>
-            <img className="Image" src={props.image} />
+            <img className="Image" style={{width:"40rem",height:"14rem"}} src={props.image} />
           </figure>
         </div>
 
         <div className="Desc-file">
-          <dt>
+          <h2 className="h2_class">
             <span className="layout" role="img">
               {props.name}
             </span>
-          </dt>
-          <dd>{props.department}</dd>
-          <dd>{props.qualification}</dd>
-          <dd>{props.experience}</dd>
-          <dd>{props.description}</dd>
+          </h2>
+          <h3 className="depart h3_class">{props.department}</h3>
+          <h3 className="h3_class">{props.qualification}</h3>
+          <h3 className="h3_class">{props.experience}</h3>
+          <p >{props.description}</p>
         </div>
+
       </div>
-    </div>
   );
 }
 

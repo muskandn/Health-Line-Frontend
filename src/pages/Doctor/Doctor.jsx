@@ -58,7 +58,7 @@ export default function Doctor() {
           {/* <a href="#contact" className="button btn btn-primary">
             Find me the doctor
           </a> */}
-          <Link to={"/doctors"} className="button">
+          <Link to={"/doctor"} className="button">
             Find me the doctor
           </Link>
           <p>

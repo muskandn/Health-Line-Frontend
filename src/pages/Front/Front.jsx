@@ -71,7 +71,7 @@ const Front = () => {
                     get the help I needed without having to leave my home.
                   </span>
                   <div className="swiper__footer1">
-                    <img src="/images/user2.png" className="avatar" />
+                    <img src="/images/doc01.jpeg" className="avatar" />
                     <h4>Amit Kumar</h4>
                   </div>
                 </div>
@@ -87,7 +87,7 @@ const Front = () => {
                     great service.
                   </span>
                   <div className="swiper__footer1">
-                    <img src="/images/user2.png" className="avatar" />
+                    <img src="/images/doc02.jpeg" className="avatar" />
                     <h4>Kritika Mittal</h4>
                   </div>
                 </div>
@@ -103,7 +103,7 @@ const Front = () => {
                     It was a great way to feel less alone.
                   </span>
                   <div className="swiper__footer1">
-                    <img src="/images/user2.png" className="avatar" />
+                    <img src="/images/doc03.jpeg" className="avatar" />
                     <h4>Uma Garg</h4>
                   </div>
                 </div>
@@ -118,7 +118,7 @@ const Front = () => {
                     The therapist was understanding and gave me helpful advice.
                   </span>
                   <div className="swiper__footer1">
-                    <img src="/images/user2.png" className="avatar" />
+                    <img src="/images/doc01.jpeg" className="avatar" />
                     <h4>Yuraj Singh</h4>
                   </div>
                 </div>
@@ -134,7 +134,7 @@ const Front = () => {
                     get advice quickly and without having to leave my home.
                   </span>
                   <div className="swiper__footer1">
-                    <img src="/images/user2.png" className="avatar" />
+                    <img src="/images/doc01.jpeg" className="avatar" />
                     <h4>Aarti Bathoo</h4>
                   </div>
                 </div>
@@ -150,7 +150,7 @@ const Front = () => {
                     long time."
                   </span>
                   <div className="swiper__footer1">
-                    <img src="/images/user2.png" className="avatar" />
+                    <img src="/images/doc01.jpeg" className="avatar" />
                     <h4>Sara </h4>
                   </div>
                 </div>
@@ -167,7 +167,7 @@ const Front = () => {
                     help without having to leave my home.
                   </span>
                   <div className="swiper__footer1">
-                    <img src="/images/user2.png" className="avatar" />
+                    <img src="/images/doc01.jpeg" className="avatar" />
                     <h4>Avneet Kaur</h4>
                   </div>
                 </div>

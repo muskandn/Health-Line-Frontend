@@ -1,6 +1,7 @@
 import React from "react";
 import "./Header.css";
 import LOGO from "../../logoRed.png"
+
 import {
   useColorMode,
   IconButton,
@@ -16,7 +17,7 @@ const Header = () => {
   const isDark = colorMode === "dark";
   return (
 <div className="header">
-    <Flex position="fixed" backgroundColor="rgb(233,243,246)" width="100%" justifyContent="space-between" pr="8rem" pl="8rem" >
+    <Flex position="fixed" backgroundColor="#a7d4ff" width="100%" justifyContent="space-between" pr="8rem" pl="8rem" >
     
             
       <div className="logo">

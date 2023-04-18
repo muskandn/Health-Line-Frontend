@@ -3,6 +3,8 @@ import doctor_info from "./doctor_info";
 import DoctorModel from "./DoctorModel";
 import colors from "./color.json";
 import "./DoctorPage.css"
+import Header from "../Header/Header";
+import Footer from "../Footer/Footer";
 function Doctor(doctor_info) {
   console.log(colors, "json");
   return (
@@ -23,10 +25,12 @@ function Doctor(doctor_info) {
 function DoctorPage() {
   return (
     <div>
+      <Header />
       <h1>
         <span>Doctor</span>
       </h1>
-      <dl className="dictionary">{doctor_info.map(Doctor)}</dl>
+      <dl className="dictionary" style={{paddingBottom: "10rem"}}>{doctor_info.map(Doctor)}</dl>
+    <Footer />
     </div>
   );
 }
