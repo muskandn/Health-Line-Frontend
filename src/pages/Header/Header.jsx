@@ -43,7 +43,11 @@ const Header = () => {
             <h2>Our Doctors</h2>
             
           </Link>
-          <Link to={"/signd"} className="homePageLinks">
+          {/* <Link to={"/signd"} className="homePageLinks">
+            <h2>Doctor Registration</h2>
+            
+          </Link> */}
+          <Link to={"/signp"} className="homePageLinks">
             <h2>Doctor Registration</h2>
             
           </Link>

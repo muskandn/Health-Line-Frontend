@@ -18,12 +18,13 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "./About2nd.css";
-
+import Navbar from "../Navbar/Navbar";
 const About = () => {
   return (
     <>
     <div className="header__about">
-        <Header />
+        {/* <Header /> */}
+        <Navbar/>
       </div>
     <div className="about2nd">
       {/* <div className="header__about">

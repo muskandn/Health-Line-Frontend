@@ -57,12 +57,12 @@ const ProfileModal = ({ user, children }) => {
               Email: {user.email}
             </Text>
 
-            <Text
+            {/* <Text
               fontSize={{ base: "28px", md: "30px" }}
               fontFamily="Work sans"
             >
               A {user.Who}
-            </Text>
+            </Text> */}
           </ModalBody>
           <ModalFooter>
             <Button onClick={onClose}>Close</Button>

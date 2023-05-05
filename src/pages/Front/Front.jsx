@@ -20,7 +20,7 @@ const Front = () => {
     
   return (
    <>
-  {/* <Navbar/> */}
+  <Navbar/>
   <div>
     </div>
     {/* <Link to={"/signp"} className="contact-button">
@@ -35,13 +35,16 @@ const Front = () => {
         <span> Doctor varification  </span>
         </div>
     </Link> */}
-    <Header/>
+    {/* <Header/> */}
     {/* <Navbar/> */}
     {/* <img src={IMG} alt="" /> */}
-    <Home/>
+    <div style={{paddingTop:"60px"}}>
+      <Home/>
   <About/>
   <Doctor/>
    <Service/>
+    </div>
+    
     
     <div className="main__div">
           <div className="swiper__main">

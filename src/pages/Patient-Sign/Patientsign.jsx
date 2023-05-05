@@ -38,7 +38,8 @@ function Patientsign() {
         borderWidth="1px"
       >
         <Text fontSize="4xl" fontFamily="Work sans" textAlign="center" >
-          Health Line: Patient
+          {/* Health Line: Patient */}
+          Health Line
         </Text>
       </Box>
       <Box bg="white" w="100%" p={4} borderRadius="lg" borderWidth="1px" >

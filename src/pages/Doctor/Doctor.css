@@ -23,7 +23,6 @@
     place-items: center;
 }
 .doctor__me-image{
-    width: 100%;
     aspect-ratio: 1/1;
     border-radius: 2rem;
     overflow: hidden;
@@ -82,7 +81,7 @@
 }
 
 .doctor__content h2 {
-    font-size: .8rem;
+   
     color:rgb(89, 88, 88);
     
 }
@@ -101,7 +100,6 @@
     /* padding-top: 10px; */
     margin: 2rem 0 0rem;
     color: var(--color-light);
-    font-size: .8rem;
     color:rgb(89, 88, 88)
 }
 .Point{

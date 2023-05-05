@@ -5,6 +5,7 @@ import colors from "./color.json";
 import "./DoctorPage.css"
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
+import Navbar from "../Navbar/Navbar";
 function Doctor(doctor_info) {
   console.log(colors, "json");
   return (
@@ -25,12 +26,15 @@ function Doctor(doctor_info) {
 function DoctorPage() {
   return (
     <div>
-      <Header />
-      <h1>
-        <span>Doctor</span>
+      <Navbar />
+      <div style={{paddingTop: "60px"}}>
+        <h1 style={{alignContent:"center",fontSize:"3rem", fontWeight:"600", paddingLeft:"60rem",paddingTop:"5rem"}}>
+        <span>Our Doctors</span>
       </h1>
       <dl className="dictionary" style={{paddingBottom: "10rem"}}>{doctor_info.map(Doctor)}</dl>
     <Footer />
+      </div>
+      
     </div>
   );
 }

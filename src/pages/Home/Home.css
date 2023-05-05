@@ -11,8 +11,8 @@
 
 .homeMain{
     position: absolute;
-    right: -190px;
-    top:30px;
-    width: 50rem;
+    right: -5rem;
+    top:20px;
+    width: 60rem;
     z-index: 0;
 }

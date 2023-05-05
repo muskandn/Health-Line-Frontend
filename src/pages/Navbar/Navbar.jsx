@@ -16,22 +16,23 @@ const Navbar = () => {
         <div className={isMobile?"aside-wrapper01":"aside-wrapper01"}>
             <Link to={"/"} className="logo-section">
             <img src={logo} alt="About image" className="sidebar__logo" />
-            <p id="Name" className='switch__color'>Muskan Debnath</p>
+            <p id="Name" className='switch__color'>Health Line</p>
             </Link>
-            <div style={{paddingTop:"10rem"}}>
+            <div style={{color: "red"}}>
             <div className='menubar'>
             <ul className={isMobile?"side-link01":"side-link"}>
             {sideBarMenu.map((link, index) => {
-              const { text, icon, url } = link
+              const { text,url } = link
               return (
-                <li key={index}>
+                <li key={index} style={{textDecoration:"none"}}>
                   <NavLink
                     className={({ isActive }) => {
                       return isActive ? 'nav__links active-links' : 'nav__links'
                     }}
                     to={url}
+                    style={{}}
                   >
-                    {icon}
+                    {/* {icon} */}
                     {text}
                   </NavLink>
                 </li>
@@ -40,7 +41,7 @@ const Navbar = () => {
           </ul>
             </div>
             </div>
-            <div className={isMobile?"social-icon01":"social-icon"} style={{paddingTop:"6rem"}}>
+            {/* <div className={isMobile?"social-icon01":"social-icon"} style={{paddingTop:"6rem"}}>
                 {socialIcons.map((icons,index)=>{
                     return(
                         <a href={icons.url} key={index}>
@@ -48,15 +49,12 @@ const Navbar = () => {
                         </a>
                     )
                 })}
-            </div>
+            </div> */}
             
             
         </div>
         
     </aside>
-    <a className='menu-bar-icon' onClick={()=>setIsMobile(!isMobile)}>{
-                isMobile?<BsXLg className="icon switch__color"/>:<GiHamburgerMenu className="icon switch__color" />}</a>
-        
     </>
   )
 }

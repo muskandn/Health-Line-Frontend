@@ -57,19 +57,19 @@ const sideBarMenu = [
     url: '/about',
   },
   {
-    text: 'Skills',
+    text: 'Our Doctors',
     icon: <RiPriceTag2Fill className="link-icon" />,
-    url: '/skills',
+    url: '/doctor',
   },
   {
-    text: 'Projects',
+    text: 'Doctor Registration',
     icon: <VscProject className="link-icon" />,
-    url: '/project',
+    url: '/signd',
   },
   {
-    text: 'Magazine',
+    text: 'Patient Registration',
     icon: <RiBook2Line className="link-icon" />,
-    url: '/magazine',
+    url: '/signp',
   },
   // {
   //   text: 'Blog',
@@ -81,11 +81,11 @@ const sideBarMenu = [
   //   ),
   //   url: '/blog',
   // },
-  {
-    text: 'Contacts',
-    icon: <RiContactsLine className="link-icon" />,
-    url: '/contact',
-  },
+  // {
+  //   text: 'Contacts',
+  //   icon: <RiContactsLine className="link-icon" />,
+  //   url: '/contact',
+  // },
   // {
   //   text: 'Tutorials',
   //   icon: <SiFuturelearn className="link-icon" />,
@@ -97,198 +97,8 @@ const sideBarMenu = [
   //   url: '/gaming',
   // },
 ]
-// social media icons
-const socialIcons = [
-  {
-    icon: <GrGithub className="icon switch__color" />,
-    url: 'https://github.com/muskandn',
-  },
-  {
-    icon: <FiLinkedin className="icon switch__color" />,
-    url: 'https://www.linkedin.com/in/muskandn/',
-  },
-  {
-    icon: <GrDribbble className="icon switch__color" />,
-    url: 'https://dribbble.com/muskandn',
-  },
-  {
-    icon: <GrTwitter className="icon switch__color" />,
-    url: 'https://twitter.com/muskandn',
-  },
-  {
-    icon: <GrInstagram className="icon switch__color" />,
-    url: 'https://www.instagram.com/pic_c.h.a.s.e.r/',
-  }
- 
-]
-// skills card
-const skillSet = [
-  {
-    icon: <SiCplusplus className="skills-icon switch__color" />,
-    spanText: 'C++',
-    url: 'https://devdocs.io/cpp/',
-  },
-  {
-    icon: <AiFillHtml5 className="skills-icon switch__color" />,
-    spanText: 'HTML',
-    url: 'https://developer.mozilla.org/en-US/docs/Web/HTML',
-  },
-  {
-    icon: <DiCss3 className="skills-icon switch__color" />,
-    spanText: 'CSS',
-    url: 'https://developer.mozilla.org/en-US/docs/Web/CSS',
-  },
-  {
-    icon: <IoLogoJavascript className="skills-icon switch__color" />,
-    spanText: 'JAVASCRIPT',
-    url: 'https://developer.mozilla.org/en-US/docs/Learn/JavaScript',
-  },
-  {
-    icon: <SiSass className="skills-icon switch__color" />,
-    spanText: 'SASS',
-    url: 'https://sass-lang.com/documentation/',
-  },
 
-  {
-    icon: <BsBootstrapFill className="skills-icon switch__color" />,
-    spanText: 'BOOTSTRAP',
-    url: 'https://getbootstrap.com/',
-  },
 
-  {
-    icon: <SiJquery className="skills-icon switch__color" />,
-    spanText: 'JQUERY',
-    url: 'https://www.w3schools.com/jquery/',
-  },
-  
-  {
-    icon: <RiReactjsLine className="skills-icon switch__color" />,
-    spanText: 'REACT JS',
-    url:
-      'https://reactjs.org/',
-  },
 
-  {
-    icon: <FaNodeJs className="skills-icon switch__color" />,
-    spanText: 'NODE',
-    url:
-      'https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs',
-  },
-
-  {
-    icon: <DiMongodb className="skills-icon switch__color" />,
-    spanText: 'MONGO DB',
-    url: 'https://www.mongodb.com/',
-  },
-  {
-    icon: <SiMysql className="skills-icon switch__color" />,
-    spanText: 'MySQL',
-    url: 'https://www.mysql.com/',
-  },
-  {
-    icon: <SiExpress className="skills-icon switch__color" />,
-    spanText: 'EXPRESS JS',
-    url:
-      'https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Express',
-  },
-  {
-    icon: <FaGit className="skills-icon switch__color" />,
-    spanText: 'GIT',
-    url:
-      'https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/GitHub',
-  },
-  {
-    icon: <BsGithub className="skills-icon switch__color" />,
-    spanText: 'GITHUB',
-    url:
-      'https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/GitHub',
-  },
-  {
-    icon: <SiFedora className="skills-icon switch__color" />,
-    spanText: 'Fedora',
-    url:
-      'https://getfedora.org/',
-  },
-  
-  {
-    icon: <SiPython className="skills-icon switch__color" />,
-    spanText: 'Python',
-    url:
-      'https://www.python.org/',
-  },
-  {
-    icon: <SiLinux className="skills-icon switch__color" />,
-    spanText: 'Linux',
-    url:
-      'https://linux.org/',
-  },
-  {
-    icon: <SiRedux className="skills-icon switch__color" />,
-    spanText: 'Redux',
-    url: 'https://redux.js.org/introduction/getting-started',
-  },
-  {
-    icon: <SiPostman className="skills-icon switch__color" />,
-    spanText: 'Postman',
-    url: 'https://www.postman.com/',
-  },
-  {
-    icon: <SiPostgresql className="skills-icon switch__color" />,
-    spanText: 'Postgresql',
-    url: 'https://www.postgresql.org/',
-  },
-  {
-    icon: <SiTypescript className="skills-icon switch__color" />,
-    spanText: 'Typescript',
-    url: 'https://www.typescriptlang.org/',
-  },
-  {
-    icon: <FaStripe className="skills-icon switch__color" />,
-    spanText: 'Stripe',
-    url: 'https://stripe.com/en-in',
-  },
-  {
-    icon: <SiTrello className="skills-icon switch__color" />,
-    spanText: 'Trello',
-    url: 'https://trello.com/',
-  },
-  
-  {
-    icon: <SiAdobephotoshop className="skills-icon switch__color" />,
-    spanText: 'Photoshop',
-    url: 'https://www.adobe.com/in/products/photoshop/free-trial-download.html',
-  },
-  {
-    icon: <SiAdobeillustrator className="skills-icon switch__color" />,
-    spanText: 'Illustrator',
-    url: 'https://www.adobe.com/in/products/illustrator/free-trial-download.html',
-  },
-  {
-    icon: <FiFigma className="skills-icon switch__color" />,
-    spanText: 'Figma',
-    url: 'https://figma.com',
-  },
-  {
-    icon: <ImFilm className="skills-icon switch__color" />,
-    spanText: 'Filmora',
-    url:
-      'https://filmora.wondershare.com/',
-  },
-  {
-    icon: <SiHeroku className="skills-icon switch__color" />,
-    spanText: 'Heroku',
-    url: 'https://www.heroku.com/',
-  },
-  {
-    icon: <SiNetlify className="skills-icon switch__color" />,
-    spanText: 'Netlify',
-    url: 'https://www.netlify.com/',
-  },
-  {
-    icon: <BsGoogle className="skills-icon switch__color" />,
-    spanText: 'Googling',
-    url: 'https://www.google.com/',
-  },
-]
-
-export { sideBarMenu, socialIcons, skillSet }
+export { sideBarMenu
+}

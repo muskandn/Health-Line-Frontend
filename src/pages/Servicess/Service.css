@@ -86,7 +86,7 @@
 }
 
 .service__content h2 {
-    font-size: .8rem;
+    /* font-size: .8rem; */
     color: rgb(89, 88, 88)
 
 }
@@ -107,7 +107,6 @@
     /* padding-top: 10px; */
     margin: 2rem 0 2.6rem;
     color: var(--color-light);
-    font-size: .8rem;
     color: rgb(89, 88, 88)
 }
 

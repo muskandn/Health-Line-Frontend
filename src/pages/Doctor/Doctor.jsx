@@ -12,7 +12,7 @@ export default function Doctor() {
       {/* <h5>Get to know</h5>
             <h2>doctor Me</h2> */}
       <div className="container doctor__container">
-        <img src={ME} alt="doctor image" height="auto" width="900rem" />
+        <img src={ME} alt="doctor image"/>
         {/* <div className="doctor__me">
                     <div className="doctor__me-image">
                         

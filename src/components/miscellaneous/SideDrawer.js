@@ -157,7 +157,7 @@ function SideDrawer() {
 
         <div>
           <Text fontSize="2xl" fontFamily="Work sans">
-          Talk-A-Tive
+          Health Line
         </Text>
         </div>
         
