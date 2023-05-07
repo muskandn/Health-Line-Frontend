@@ -1,50 +1,45 @@
-
-.service__container {
+.doctor__container{
     display: grid;
-    grid-template-columns: 40% 50%;
+    grid-template-columns: 55% 40%;
     gap: 10%;
-    background-color: rgb(233,243,246);
-    padding-left: 19rem;
-    padding-right: 8rem;
-    /* padding-top: 90px; */
-    padding-bottom: 20px;
-    /* line-height: 20rem; */
+    background-color: white;
+    padding-left: 17rem;
+    padding-right: 17rem;
+    padding-top: 90px;
+    padding-bottom: 5rem;
 }
-.service__container img{
-    padding-top: -9rem;
-}
-.service__me {
+
+.doctor__me{
     width: 100%;
     aspect-ratio: 1/1;
     border-radius: 2rem;
-    background: linear-gradient(45deg,
-            transparent,
-            var(--color-primary),
-            transparent);
+    background: linear-gradient(
+        45deg,
+        transparent,
+        var(--color-primary),
+        transparent
+    );
     display: grid;
     place-items: center;
 }
-
-.service__me-image {
-    width: 100%;
+.doctor__me-image{
     aspect-ratio: 1/1;
     border-radius: 2rem;
     overflow: hidden;
-    transform: rotate(10deg);
+    transform: rotate(10deg) ;
     transition: var(transition);
 }
-
-.service__me-image:hover {
-    transform: rotate(0);
+.doctor__me-image:hover{
+    transform: rotate(0) ;
 }
 
-.service__cards {
+.doctor__cards{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
 }
 
-.service__card {
+.doctor__card{
     background: var(--color-bg-variant);
     border: 1px solid transparent;
     border-radius: 1rem;
@@ -52,114 +47,108 @@
     text-align: center;
 }
 
-.service__card:hover {
+.doctor__card:hover{
     background: transparent;
     border-color: var(--color-primary-variant);
     cursor: pointer;
-
+    
 }
 
-.service__icon {
+.doctor__icon{
     color: var(--color-primary);
     font-size: 1.4rem;
     margin-bottom: 1rem;
 }
 
-.service__card h5 {
+.doctor__card h5{
     font-size: 0.95rem;
 }
 
-.service__card small {
+.doctor__card small{
     font-size: 0.7rem;
     color: var(--color-light);
 
 }
-.service__content {
-    
-    padding-top: 6rem;
+
+.doctor__content{
+    padding-top: 7rem;
 }
 
-.service__content h1 {
+.doctor__content h1{
     font-size: 2rem;
     line-height: 2.5rem;
     padding-bottom: 10px;
 }
 
-.service__content h2 {
-    /* font-size: .8rem; */
-    color: rgb(89, 88, 88)
-
+.doctor__content h2 {
+   
+    color:rgb(89, 88, 88);
+    
 }
-
 /* 
-.service__content h2 {
+.doctor__content h2 {
     margin-top: 10px;
 
 } */
-.service__content span {
+.doctor__content span {
     font-size: 2.8rem;
     color: rgb(31, 31, 31);
     font-weight: bold;
-
+    
 }
-
-.service__content p {
+.doctor__content p{
     /* padding-top: 10px; */
-    margin: 2rem 0 2.6rem;
+    margin: 2rem 0 0rem;
     color: var(--color-light);
-    color: rgb(89, 88, 88)
+    color:rgb(89, 88, 88)
 }
-
-.Point {
+.Point{
     padding-bottom: 20px;
 }
-
-.points {
+.points{
     display: flex;
     gap: 10px
 }
 
-.button {
+.button{
     border-radius: 0;
-    padding: 5px 10px;
+    padding:5px 10px;
     background-color: rgb(80, 199, 246);
 }
-
 /*-----------------------medium devices-------------------*/
-@media (max-width:768px) {
-    .service__container {
+@media (max-width:768px){
+    .doctor__container{
         grid-template-columns: 1fr;
         gap: 0;
     }
 
-    .service__me {
+    .doctor__me{
         width: 50%;
         margin: 2rem auto 4rem;
     }
 
-    .service__content p {
+    .doctor__content p{
         margin: 1rem 0 1.5rem;
     }
 }
 
 /*-------------------small devices--------------*/
-@media (max-width:600px) {
-    .service__me {
+@media (max-width:600px){
+    .doctor__me{
         width: 65%;
         margin: 0 auto 3rem;
 
     }
 
-    .service__cards {
+    .doctor__cards{
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
     }
 
-    .service__content {
+    .doctor__content{
         text-align: center;
     }
-
-    .service__content p {
+    .doctor__content p{
         margin: 1.5rem 0;
     }
 }

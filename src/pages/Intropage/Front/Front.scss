@@ -232,7 +232,7 @@ home-wrapper {
 }
 
 .swiper__main {
-    margin: 10rem 25rem 0 25rem;
+    margin: 10rem 35rem 0 35rem;
 }
 
 .text__div {
@@ -247,11 +247,14 @@ home-wrapper {
     font-weight: 900;
     font-size: 1.5rem;
 }
-
+.content2{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
 .avatar {
-    height: 1.5rem;
-    width: 1.5rem;
-    margin: 0.5rem;
+    height: 6.5rem;
+    width: 8.5rem;
+
 }
 
 .swiper__content1 {
@@ -259,8 +262,8 @@ home-wrapper {
 }
 
 .swiper__footer1 {
-    display: flex;
-    justify-content: left;
+    // display: flex;
+    justify-content: center;
 }
 
 .swiper__footer1 h4 {

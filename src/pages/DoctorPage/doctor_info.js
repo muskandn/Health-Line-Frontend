@@ -1,5 +1,5 @@
 
-import ME from "../../doc01.jpeg"
+import ME from "../../images/doc01.jpeg"
 
 const doctor_info = [
   

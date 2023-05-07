@@ -178,17 +178,19 @@ const SignupD = () => {
     
     return (
       <VStack spacing='5px'>
+        
         <FormControl id='Name' isRequired>
             <FormLabel>Name</FormLabel>
             <Input
             placeholder="Enter your Name"
             name="name"
             value={user.name}
+            
             onChange={handleInputs}
             />
         </FormControl>
 
-
+{/* 
         <FormControl id='Password' isRequired>
             <FormLabel>Password</FormLabel>
             <InputGroup>
@@ -393,7 +395,7 @@ const SignupD = () => {
             
             onChange={handleInputs}
             />
-        </FormControl>
+        </FormControl> */}
 
 
         <FormControl id='YoE' isRequired>
@@ -407,15 +409,25 @@ const SignupD = () => {
             />
         </FormControl>
 
-
-        <Button
+{/* for entering into the chat section -----------------------------------------*/}
+        {/* <Button
         colorScheme="blue"
         width="100%"
         style={{ marginTop: 15 }}
         onClick={submitHandler}
         isLoading={loading}
 
-        >Sign Up</Button>
+        >Sign Up</Button> */}
+
+        {/* ------------------------------------------------------------------------- */}
+        <Button
+        colorScheme="blue"
+        width="100%"
+        // isLoading={picLoading}
+      ><Link to="/thq" >
+        Sign Up
+      </Link>
+      </Button>
         <Button
         variant="solid"
         // colorScheme="indigo"

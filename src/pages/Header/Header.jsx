@@ -1,6 +1,6 @@
 import React from "react";
 import "./Header.css";
-import LOGO from "../../logoRed.png"
+import LOGO from "../../images/logoRed.png"
 
 import {
   useColorMode,

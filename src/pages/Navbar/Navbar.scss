@@ -105,23 +105,28 @@ ul.side-link li {
     
     position: relative;
     display: flex;
-    color:#030c46;
     padding: 0 15px;
+    font-size: 1.2rem;
 }
-ul.side-link li:hover {
+// ul.side-link li:hover {
     
-    background-color: rgb(80, 199, 246);
+//     color: #0821c3;
+//     display: block;
+//     letter-spacing: 2px;
+    
+// }
+
+.nav__links {
     display: block;
+    color: #030c46;
+    transition: all 250ms linear;
 }
 
-// .nav__links {
-//     display: block;
-//     transition: all 250ms linear;
-// }
-
-// .active-links {
-//     color: red;
-// }
+.active-links {
+    color: red;
+    display: block;
+    letter-spacing: 2px;
+}
 
 // ul.side-link li .link-icon {
 //     font-size: 15px;

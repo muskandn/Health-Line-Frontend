@@ -52,6 +52,8 @@
     text-align: center;
     display: flex;
     flex-direction: column;
+    /* box-shadow: #030c46; */
+    filter: drop-shadow(2px 2px 2px #393e65);
    
 }
 

@@ -62,15 +62,16 @@ const sideBarMenu = [
     url: '/doctor',
   },
   {
-    text: 'Doctor Registration',
-    icon: <VscProject className="link-icon" />,
-    url: '/signd',
-  },
-  {
     text: 'Patient Registration',
     icon: <RiBook2Line className="link-icon" />,
     url: '/signp',
   },
+  {
+    text: 'Doctor Registration',
+    icon: <VscProject className="link-icon" />,
+    url: '/signd',
+  },
+  
   // {
   //   text: 'Blog',
   //   icon: (

@@ -1,0 +1,19 @@
+*{
+   padding: 0;
+   margin: 0;
+}
+.thq{
+    padding-top: 10rem;
+}
+.thq img{
+    margin-left: 56rem;
+}
+.h11{
+    font-size: 2rem;
+    justify-content: center;
+    text-align: center;
+}
+.h11 span{
+    font-size: 3rem;
+    font-weight:bold;
+}

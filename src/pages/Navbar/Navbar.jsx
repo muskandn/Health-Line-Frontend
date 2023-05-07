@@ -6,9 +6,12 @@ import {GrClose} from 'react-icons/gr'
 import { BsXLg, BsListNested } from 'react-icons/bs'
 import {GiHamburgerMenu} from 'react-icons/gi'
 import './Navbar.scss'
-import logo from '../../logoRed.png'
+import logo from '../../images/logoRed.png'
 const Navbar = () => {
   const [isMobile,setIsMobile]=React.useState(0)
+  const [isActive,setIsActive]=React.useState(1)
+
+  
   return (
 
     <>
@@ -25,9 +28,9 @@ const Navbar = () => {
               const { text,url } = link
               return (
                 <li key={index} style={{textDecoration:"none"}}>
-                  <NavLink
+                  <NavLink onClick = {()=>setIsActive(!isActive)} 
                     className={({ isActive }) => {
-                      return isActive ? 'nav__links active-links' : 'nav__links'
+                      return isActive ? 'active-links' : 'nav__links'
                     }}
                     to={url}
                     style={{}}

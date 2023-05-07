@@ -1,6 +1,6 @@
 import React from "react";
 import "./Doctor.css";
-import ME from "../../doctor.png";
+import ME from "../../../images/doctor.png";
 import { BsFillAwardFill } from "react-icons/bs";
 import { CheckIcon } from "@chakra-ui/icons";
 
@@ -12,7 +12,7 @@ export default function Doctor() {
       {/* <h5>Get to know</h5>
             <h2>doctor Me</h2> */}
       <div className="container doctor__container">
-        <img src={ME} alt="doctor image"/>
+        <img src={ME} alt="doctor image" style={{width: "75%"}}/>
         {/* <div className="doctor__me">
                     <div className="doctor__me-image">
                         
@@ -38,7 +38,7 @@ export default function Doctor() {
                     </div>
                      */}
           <h1>
-            Insiant appointment with Doctors.<span>Guaranteed</span>
+            Insiant appointment with Doctors. <span>Guaranteed</span>
           </h1>
           <div className="Point">
             <div className="points">

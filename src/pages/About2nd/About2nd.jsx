@@ -5,13 +5,13 @@ import Footer from "../Footer/Footer";
 import { Swiper, SwiperSlide } from "swiper/react";
 // import required modules
 import { Autoplay, Navigation, Pagination } from "swiper";
-import PIC1 from "../../pd1.jpg"
-import PIC2 from "../../pd5.jpg"
-import PIC3 from "../../pd4.jpg"
+import PIC1 from "../../images/pd1.jpg"
+import PIC2 from "../../images/pd5.jpg"
+import PIC3 from "../../images/pd4.jpg"
 
-import LOGO1 from "../../connect.png"
-import LOGO2 from "../../trust.png"
-import LOGO3 from "../../transparency.png"
+import LOGO1 from "../../images/connect.png"
+import LOGO2 from "../../images/trust.png"
+import LOGO3 from "../../images/transparency.png"
 
 // Import Swiper styles
 import "swiper/css";

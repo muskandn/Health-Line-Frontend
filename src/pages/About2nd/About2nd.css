@@ -1,10 +1,12 @@
-.about2nd{
+.about2nd {
     padding: 0 0;
 }
-.header__about{
-    top:0;
+
+.header__about {
+    top: 0;
     margin-top: 0;
 }
+
 .about {
     scroll-behavior: smooth;
 }
@@ -106,7 +108,7 @@
 }
 
 .swiper__main {
-    margin: 5rem 25rem 0 25rem;
+    margin: 5rem 35rem 0 35rem;
 }
 
 .text__div {
@@ -114,7 +116,11 @@
     justify-content: center;
     align-items: center;
 }
-
+.content2 {
+    display: grid;
+    grid-template-columns: 85% 30%;
+    
+}
 .swiper__main h1 {
     display: flex;
     justify-content: center;
@@ -123,9 +129,9 @@
 }
 
 .avatar {
-    height: 1.5rem;
-    width: 1.5rem;
-    margin: 0.5rem;
+    height: 6.5rem;
+    width: 8.5rem;
+
 }
 
 .swiper__content1 {
@@ -133,7 +139,7 @@
 }
 
 .swiper__footer1 {
-    display: flex;
+    /* display: flex; */
     justify-content: left;
 }
 

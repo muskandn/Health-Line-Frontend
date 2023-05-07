@@ -1,6 +1,6 @@
 import React from "react";
 import "./Service.css";
-import ME from "../../servicesRed.png";
+import ME from "../../../images/servicesRed.png";
 import { BsFillAwardFill } from "react-icons/bs";
 import { CheckIcon } from "@chakra-ui/icons";
 import { Link } from "react-router-dom";
@@ -62,7 +62,7 @@ export default function Service() {
             and scrambled it to make a type specimen book.
           </p>
         </div>
-        <img src={ME} alt="service image" />
+        <img src={ME} alt="service image" style={{width:"80%"}}/>
       </div>
     </section>
   );
