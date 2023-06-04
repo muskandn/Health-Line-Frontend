@@ -107,26 +107,19 @@ ul.side-link li {
     display: flex;
     padding: 0 15px;
     font-size: 1.2rem;
+    color: #030c46 ;
 }
 // ul.side-link li:hover {
     
-//     color: #0821c3;
+//     color: ;
 //     display: block;
 //     letter-spacing: 2px;
     
 // }
-
-.nav__links {
-    display: block;
-    color: #030c46;
-    transition: all 250ms linear;
+.active{
+    color: #0821c3;
 }
 
-.active-links {
-    color: red;
-    display: block;
-    letter-spacing: 2px;
-}
 
 // ul.side-link li .link-icon {
 //     font-size: 15px;

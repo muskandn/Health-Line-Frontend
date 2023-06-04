@@ -9,7 +9,7 @@ import './Navbar.scss'
 import logo from '../../images/logoRed.png'
 const Navbar = () => {
   const [isMobile,setIsMobile]=React.useState(0)
-  const [isActive,setIsActive]=React.useState(1)
+  const [isActive,setIsActive]=React.useState(false)
 
   
   return (
@@ -27,13 +27,13 @@ const Navbar = () => {
             {sideBarMenu.map((link, index) => {
               const { text,url } = link
               return (
-                <li key={index} style={{textDecoration:"none"}}>
-                  <NavLink onClick = {()=>setIsActive(!isActive)} 
-                    className={({ isActive }) => {
-                      return isActive ? 'active-links' : 'nav__links'
-                    }}
+                <li key={index} >
+                  <NavLink  
+                    // onClick = {()=>setIsActive(!isActive)}
+                    // className={isActive ? 'active-links' : 'nav__links'}
                     to={url}
                     style={{}}
+
                   >
                     {/* {icon} */}
                     {text}
